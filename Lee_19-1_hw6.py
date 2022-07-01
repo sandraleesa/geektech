@@ -23,10 +23,10 @@ class Solution:
 
         def recursive(array):
             if type(array) == int:
-                print(array)
+                return array
             else:
                 recursive(array[0])
-        recursive(arrays)
+        return recursive(arrays)
 
 
 Solution().get_num(nested_arrays.arrays)
